@@ -6,7 +6,7 @@ import "../interfaces/IERC20.sol";
 import "../interfaces/IAlchemistV2.sol";
 import "../interfaces/ICurveMetapool.sol";
 
-import "./Ownable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Extender is Ownable {
     IWhitelist constant whitelist =
